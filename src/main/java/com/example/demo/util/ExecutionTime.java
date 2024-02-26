@@ -10,10 +10,9 @@ public class ExecutionTime {
         long elapsedTime = endTime - startTime;
 
         // Optionally, convert milliseconds to seconds:
-        double elapsedSeconds = (double) elapsedTime / 1000;
 
         // Return the elapsed time
-        return elapsedSeconds; // or elapsedSeconds if you want seconds
+        return (double) elapsedTime / 1000; // or elapsedSeconds if you want seconds
 
     }
 
